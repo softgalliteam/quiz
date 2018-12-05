@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/cat_text"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_constraintLeft_toLeftOf="parent"
+        android:layout_constraintRight_toRightOf="parent"
+        android:paddingLeft="@dimen/text_15"
+        android:paddingRight="@dimen/text_15"
+        android:drawableRight="@mipmap/arrow_r"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center_vertical"
+        android:text="f eskfj"
+        android:textSize="@dimen/text_18"
+        tools:ignore="MissingPrefix"
+        android:background="@drawable/background_shadow"/>
+
+</android.support.constraint.ConstraintLayout>
