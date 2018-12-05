@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
 
@@ -10,8 +11,8 @@
         android:id="@+id/cat_text"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:layout_constraintLeft_toLeftOf="parent"
-        android:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         android:paddingLeft="@dimen/text_15"
         android:paddingRight="@dimen/text_15"
         android:drawableRight="@mipmap/arrow_r"
