@@ -30,6 +30,19 @@
             android:textColor="@color/colorPrimary"
             android:textSize="16sp"
             app:layout_constraintLeft_toLeftOf="parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/quesCount"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"
+            android:text=""
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/Prev"
+            app:layout_constraintRight_toLeftOf="@+id/Next"/>
+
 
         <Button
             android:id="@+id/Next"
@@ -88,6 +101,7 @@
             </android.support.constraint.ConstraintLayout>
 
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/answers"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dimen_10"
