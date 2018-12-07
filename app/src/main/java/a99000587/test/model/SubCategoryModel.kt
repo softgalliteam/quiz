@@ -4,10 +4,12 @@ import com.google.gson.annotations.SerializedName
 
 class SubCategoryModel {
 
-    @SerializedName("subcat_id")
+    @SerializedName("id")
     var subcat_id: String?= null
     @SerializedName("subCatNme")
     var subCatNme: String?= null
     @SerializedName("catId")
     var catId: String?= null
+    @SerializedName("school_id")
+    var school_id: String?= null
 }
