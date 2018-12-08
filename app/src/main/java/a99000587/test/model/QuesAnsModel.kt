@@ -6,6 +6,19 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 class QuesAnsModel : Parcelable {
+
+    @SerializedName("status")
+    var status: String?= null
+    @SerializedName("message")
+    var message: String?= null
+    @SerializedName("data")
+    var data: ArrayList<QuizQuestionModel>?= null
+
+
+
+}
+@Parcelize
+class QuizQuestionModel : Parcelable {
     @SerializedName("id")
     var ques_id: String?= null
     @SerializedName("subCatId")

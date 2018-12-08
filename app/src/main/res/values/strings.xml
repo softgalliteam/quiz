@@ -68,6 +68,7 @@ The achievement was also entered in the Limca Book of Records (India)-1994.</str
     <string name="hint_email">Enter your email id</string>
     <string name="hint_name">Enter your name</string>
     <string name="hint_mobile">Enter mobile number</string>
+    <string name="something_went_wrong_error_message">Something went wrong</string>
 
 
 </resources>

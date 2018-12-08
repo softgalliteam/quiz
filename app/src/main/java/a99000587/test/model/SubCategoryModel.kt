@@ -1,9 +1,22 @@
 package a99000587.test.model
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
 
 class SubCategoryModel {
+    @SerializedName("status")
+    var status: String?= null
+    @SerializedName("message")
+    var message: String?= null
+    @SerializedName("data")
+    var data: ArrayList<QuizSubCategory>?= null
 
+
+}
+
+@Parcelize
+class QuizSubCategory : Parcelable {
     @SerializedName("id")
     var subcat_id: String?= null
     @SerializedName("subCatNme")

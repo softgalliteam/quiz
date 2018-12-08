@@ -1,6 +1,6 @@
 package a99000587.test
 
-import a99000587.test.model.QuesAnsModel
+import a99000587.test.model.QuizQuestionModel
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
@@ -14,7 +14,7 @@ import java.util.*
 
 class QuesAnsActivity : AppCompatActivity() {
     private var queListCount = 0
-    private var queList = ArrayList<QuesAnsModel>()
+    private var queList = ArrayList<QuizQuestionModel>()
     private var quesIndex = 0
     private var selected: IntArray? = null
     private var correctAns: IntArray? = null
